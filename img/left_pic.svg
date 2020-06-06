@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="207px" height="538px" viewBox="0 0 207 538" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="0.0%" y="-0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="0.0%" y="-0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-80" transform="translate(-13.000000, -227.000000)">
+            <g id="Group-4" transform="translate(7.000000, 227.000000)">
+                <circle id="Oval-Copy-19" fill="#FDE3AF" cx="115.5" cy="448.5" r="63.5"></circle>
+                <circle id="Oval-Copy-21" fill="#FDE3AF" cx="116" cy="334" r="39"></circle>
+                <circle id="Oval-Copy-30" fill="#FDE3AF" transform="translate(28.000000, 165.000000) rotate(36.000000) translate(-28.000000, -165.000000) " cx="28" cy="165" r="19"></circle>
+                <circle id="Oval-Copy-32" fill="#FDE3AF" transform="translate(25.000000, 318.000000) rotate(20.000000) translate(-25.000000, -318.000000) " cx="25" cy="318" r="19"></circle>
+                <ellipse id="Oval-Copy-31" fill="#FDE3AF" transform="translate(29.000000, 80.500000) rotate(90.000000) translate(-29.000000, -80.500000) " cx="29" cy="80.5" rx="19" ry="19.5"></ellipse>
+                <ellipse id="Oval-Copy-29" fill="#FDE3AF" cx="116.5" cy="243" rx="47.5" ry="48"></ellipse>
+                <circle id="Oval-Copy-23" fill="#FDE3AF" cx="48" cy="371" r="27"></circle>
+                <circle id="Oval-Copy-25" fill="#FDE3AF" cx="173.5" cy="372.5" r="18.5"></circle>
+                <ellipse id="Oval-Copy-27" fill="#FDE3AF" cx="182.5" cy="520" rx="18.5" ry="18"></ellipse>
+                <ellipse id="Oval-Copy-28" fill="#FDE3AF" cx="48.5" cy="520" rx="18.5" ry="18"></ellipse>
+                <circle id="Oval-Copy-20" fill="#000000" cx="116" cy="449" r="33"></circle>
+                <circle id="Oval-Copy-22" fill="#000000" cx="115.5" cy="333.5" r="20.5"></circle>
+                <ellipse id="Oval-Copy-24" fill="#000000" cx="48.5" cy="371" rx="13.5" ry="13"></ellipse>
+                <ellipse id="Oval-Copy-26" fill="#000000" cx="173.5" cy="372" rx="10.5" ry="10"></ellipse>
+                <polygon id="Path-24" fill="#FDE3AF" points="93.3826804 120 25 299.857499 36.5530765 303 97.2928732 122"></polygon>
+                <polygon id="Path-24-Copy-7" fill="#FDE3AF" points="136 120.68188 213 364 213 324.389212 139.282513 120"></polygon>
+                <polygon id="Path-24-Copy-8" fill="#FDE3AF" points="146 116.093073 213 263 213 236.791638 148.92009 115"></polygon>
+                <polygon id="Path-24-Copy-9" fill="#FDE3AF" points="150 112.51615 213 199 213 185.386939 152.601972 111"></polygon>
+                <polygon id="Path-24-Copy-10" fill="#FDE3AF" points="155 109.603175 213 178 213 169.169109 156.726902 108"></polygon>
+                <polygon id="Path-24-Copy-11" fill="#FDE3AF" points="159 104.578113 213 164 213 155.152638 160.586854 103"></polygon>
+                <polygon id="Path-24-Copy-12" fill="#FDE3AF" points="162 98.69488 213 148 213 139.047343 163.63264 97"></polygon>
+                <polygon id="Path-24-Copy-13" fill="#FDE3AF" points="171 89.3807597 213 117 213 110.512501 171.989907 87"></polygon>
+                <polygon id="Path-24-Copy-14" fill="#FDE3AF" points="173 83.1714258 213 106 213 99.2703167 173.702333 81"></polygon>
+                <polygon id="Path-24-Copy-15" fill="#FDE3AF" points="175 78.7035598 213 95 213 88.6647892 175.932176 77"></polygon>
+                <polygon id="Path-24-Copy-16" fill="#FDE3AF" points="176 69.1200366 213 76 213 68.764824 176 66"></polygon>
+                <polygon id="Path-24-Copy-17" fill="#FDE3AF" points="175 61.7189467 213 66 213 59 175 59"></polygon>
+                <polygon id="Path-24-Copy-18" fill="#FDE3AF" points="65.7759792 61.8044321 27 62.5 28.5767475 68 66 64.5233787"></polygon>
+                <polygon id="Path-24-Copy-21" fill="#FDE3AF" points="67.7818745 69.8044321 31 69 31.56157 76 68 72.5233787"></polygon>
+                <polygon id="Path-24-Copy-19" fill="#FDE3AF" points="59.1701163 87 26 92.6151996 26.5680998 99 61 89.8191607"></polygon>
+                <polygon id="Path-24-Copy-20" fill="#FDE3AF" points="64.6579635 77.15873 30 82.4958173 30.9122894 89 64.6579635 80.5"></polygon>
+                <polygon id="Path-24-Copy" fill="#FDE3AF" points="79.88798 113 44 159.421297 45.8487005 165 82 114.717399"></polygon>
+                <path d="M99.3827969,123 C80.8306125,189.057108 71.0815487,224.512805 70.1356056,229.36709 C69.1896624,234.221376 73.1926777,228.252609 82.1446513,211.460791 L102,123 L99.3827969,123 Z" id="Path-24-Copy-5" fill="#FDE3AF"></path>
+                <polygon id="Path-24-Copy-6" fill="#FDE3AF" points="126 123.404664 134.001034 200.353287 160.907267 228.933736 132.15298 122"></polygon>
+                <polygon id="Path-24-Copy-4" fill="#FDE3AF" points="105.286487 124 95 203 118 203 118 124"></polygon>
+                <polygon id="Path-24-Copy-2" fill="#FDE3AF" points="77.7339332 107 37.8992066 151.382277 41.3430743 153.991639 80 108.70437"></polygon>
+                <polygon id="Path-24-Copy-3" fill="#FDE3AF" points="71.9245089 105 27 147.05904 32.6176823 148 74 106.93177"></polygon>
+                <path d="M78,230.916415 C78,246.180624 106.921839,249 115.5,249 C124.078161,249 153,243.484757 153,230.916415 C153,218.348073 134.87871,203 115.5,203 C96.1212901,203 78,215.652205 78,230.916415 Z" id="Path-23" fill="#000000" filter="url(#filter-1)"></path>
+                <path d="M18.1028408,154.556455 C14.0579206,160.009397 22.2454173,167.374558 24.8954061,169.260321 C27.545395,171.146084 37.9415138,175.533809 41.272046,171.04393 C44.6025782,166.554052 43.071643,157.087493 37.085119,152.827413 C31.0985949,148.567333 22.147761,149.103513 18.1028408,154.556455 Z" id="Path-23-Copy" fill="#000000" filter="url(#filter-2)"></path>
+                <path d="M12.3601546,310.02757 C9.98498645,316.661469 20.0189013,321.761694 23.1250599,322.910985 C26.2312184,324.060275 37.5620313,325.538234 39.5177124,320.075971 C41.4733935,314.613709 37.2998779,305.515495 30.2828322,302.919161 C23.2657864,300.322827 14.7353228,303.39367 12.3601546,310.02757 Z" id="Path-23-Copy-3" fill="#000000" filter="url(#filter-3)"></path>
+                <path d="M21,82.1375716 C21,88.7741843 31.7974867,90 35,90 C38.2025133,90 49,87.6020681 49,82.1375716 C49,76.673075 42.2347184,70 35,70 C27.7652816,70 21,75.5009588 21,82.1375716 Z" id="Path-23-Copy-2" fill="#000000" filter="url(#filter-4)" transform="translate(35.000000, 80.000000) rotate(90.000000) translate(-35.000000, -80.000000) "></path>
+                <ellipse id="Oval" fill="#000000" cx="115" cy="62.5" rx="63" ry="62.5"></ellipse>
+                <ellipse id="Oval" fill="#FDE3AF" cx="115.5" cy="60" rx="27.5" ry="27"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

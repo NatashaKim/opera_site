@@ -1,0 +1,269 @@
+@import "reset.css";
+@font-face {
+  font-family: "Circe";
+  src: url("../fonts/Circe-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Nolde";
+  src: url("../fonts/Nolde.woff") format("woff");
+}
+
+:root {
+  --main-color: #FFE0AF;
+  --accent-color: #D23535;
+}
+
+body {
+  font-family: "Circe";
+    color: var(--main-color);
+    background-repeat: no-repeat;
+    /* background-color: black; */
+    background-size: auto;
+    box-sizing: border-box;
+    /* cursor: none; */
+    background-image: url(../img/desktop1.png);
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.wrapper {
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-repeat: no-repeat;
+}
+
+header {
+  position: fixed;
+  display: flex;
+  width: 100vw;
+  height: 6vw;
+  justify-content: space-between;
+  vertical-align: middle;
+  background-color: black;
+  padding: 2vw 2.5vw;
+}
+
+header span {
+  font-size: 1.8vw;
+}
+
+h1  {
+  font-family: "Nolde";
+    font-size: 5vw;
+    text-align: center;
+    font-size: 5.6vw;
+    line-height: 8.9vw;
+    border-top: 0.5vw solid var(--main-color);
+    border-bottom: 0.5vw solid var(--main-color);
+    margin-top: 6vw;
+    height: 10vw;
+}
+
+.afisha_grid {
+  display: grid;
+  height: 86.2vw;
+  width: 100vw;
+  grid-template: 46% 24% 30% / 17.6vw 12.4vw 1fr 12.4vw 17.6vw;
+  justify-content: end;
+  justify-items: center;
+}
+
+.left_pic {
+  width: 17.6vw;
+  border-right: 0.4vw solid;
+}
+
+.left_pic img {
+  width: 15.3vw;
+  padding-left: 0.9vw;
+}
+
+.saturn_rect,
+.upiter_rect {
+  width: 12.4vw;
+  text-align: center;
+  padding-top: 0.75vw;
+}
+
+.saturn_rect {
+  border-right: 0.4vw solid;
+}
+
+.saturn_rect img {
+  width: 8.5vw;
+}
+
+h3 {
+  font-size: 1.7vw;
+  font-family: "Nolde";
+}
+
+p {
+  font-size: 1.4vw;
+  line-height: 1.6vw;
+}
+
+.main_pic {
+  text-align: center;
+}
+
+h2 {
+  font-family: "Nolde";
+    font-size: 3.7vw;
+    line-height: 5vw;
+}
+
+.main_pic img {
+  width: 40.0vw;
+  border-top: 0.2vw solid;
+}
+
+.upiter_rect {
+  border-left: 0.4vw solid;
+}
+
+.upiter_rect img {
+  width: 8.3vw;
+}
+
+.upiter_rect p {
+  margin-bottom: 0.7vw;
+}
+
+.right_pic {
+  width: 17.6vw;
+  border-left: 0.4vw solid;
+  text-align: center;
+  padding-top: 4vw;
+}
+
+.saturn_rect,
+.upiter_rect,
+.left_pic,
+.right_pic,
+.main_pic {
+  border-bottom: 0.4vw solid;
+}
+
+.magic_flute,
+.figaro,
+.onegin,
+.don_juan {
+  text-align: center;
+  width: 17.6vw;
+  border-bottom: 0.2vw solid;
+}
+
+.magic_flute,
+.onegin {
+  border-right: 0.4vw solid;
+}
+
+.figaro,
+.don_juan {
+  border-left: 0.4vw solid;
+}
+
+.onegin,
+.don_juan {
+  height: 21.1vw;
+}
+
+.magic_flute h3,
+.figaro h3,
+.onegin h3,
+.don_juan h3 {
+  padding-top: 1.1vw;
+}
+
+.magic_flute p,
+.figaro p,
+.onegin p,
+.don_juan p {
+  line-height: 1.3vw;
+  padding-bottom: 1.3vw;
+}
+
+.center_ad {
+  grid-area: 2/ 2 / 4/ 5;
+  width: 59.9vw;
+  height: 42vw;
+  margin-top: 2vw;
+  border: 0.2vw solid;
+  text-align: center;
+}
+
+.center_ad h3 {
+  line-height: 3vw;
+  height: 3.6vw;
+  border-bottom: 0.4vw solid;
+}
+
+.atoms {
+  display: flex;
+  height: 26vw;
+  justify-content: space-between;
+}
+
+.atom_1 {
+  width: 14.9vw;
+  border-right: 0.2vw solid;
+  padding-top: 7vw;
+}
+
+.atom_1 img,
+.atom_3 img {
+  width: 12vw;
+}
+
+.atom_2 {
+  align-self: center;
+}
+
+.atom_2 img {
+  width: 21vw;
+}
+
+.atom_3 {
+width: 14.9vw;
+border-left: 0.2vw solid;
+padding-top: 7vw;
+}
+
+.center_ad h2 {
+  height: 6.6vw;
+  border-top: 0.4vw solid;
+  border-bottom: 0.4vw solid;
+  line-height: 6vw;
+}
+
+footer {
+  display: flex;
+  width: 100vw;
+  height: 6vw;
+  justify-content: space-between;
+  padding: 2vw 4.6vw 2vw 2.5vw;
+      border-top: 0.4vw solid;
+}
+
+.logo {
+  width: 8.1vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer span {
+  font-size: 1.8vw;
+  line-height: 1.7vw;
+}

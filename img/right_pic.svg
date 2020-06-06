@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="212px" height="466px" viewBox="0 0 212 466" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-5">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-80" transform="translate(-1206.000000, -286.000000)">
+            <g id="Group-5" transform="translate(1206.000000, 286.000000)">
+                <circle id="Oval-Copy-8" stroke="#FDE3AF" stroke-width="2" cx="106" cy="106" r="105"></circle>
+                <circle id="Oval-Copy-36" stroke="#FDE3AF" stroke-width="2" cx="105.5" cy="105.5" r="73.5"></circle>
+                <path d="M207,134 C173.333333,96.8519094 139.666667,70.518576 106,55" id="Path-72" stroke="#FDE3AF" stroke-width="2"></path>
+                <path d="M209,89 C166.725646,71.9168308 132.058979,60.5834975 105,55" id="Path-72-Copy" stroke="#FDE3AF" stroke-width="2"></path>
+                <path d="M199,55.6514041 C166.281616,53.3388927 135.281616,53.4550913 106,56" id="Path-72-Copy-2" stroke="#FDE3AF" stroke-width="2"></path>
+                <path d="M106,55.0297787 C75.803276,54.3196659 41.1366093,66.3097397 2,91" id="Path-72-Copy-4" stroke="#FDE3AF" stroke-width="2"></path>
+                <path d="M105,55 C123.713319,35.1658644 138.379986,20.4991977 149,11" id="Path-72-Copy-3" stroke="#FDE3AF" stroke-width="2"></path>
+                <ellipse id="Oval" fill="#FDE3AF" cx="105.5" cy="107" rx="63.5" ry="63"></ellipse>
+                <circle id="Oval-Copy-13" fill="#FDE3AF" cx="104.5" cy="393.5" r="72.5"></circle>
+                <circle id="Oval-Copy-9" fill="#FDE3AF" cx="52" cy="266" r="37"></circle>
+                <circle id="Oval-Copy-11" fill="#FDE3AF" cx="161" cy="266" r="37"></circle>
+                <circle id="Oval" fill="#000000" filter="url(#filter-1)" cx="106" cy="100" r="45"></circle>
+                <ellipse id="Oval-Copy-14" fill="#000000" filter="url(#filter-2)" cx="102.5" cy="395" rx="60.5" ry="60"></ellipse>
+                <ellipse id="Oval-Copy-10" fill="#000000" filter="url(#filter-3)" cx="52" cy="261.5" rx="27" ry="26.5"></ellipse>
+                <ellipse id="Oval-Copy-12" fill="#000000" filter="url(#filter-4)" cx="161" cy="261.5" rx="27" ry="26.5"></ellipse>
+                <circle id="Oval-Copy-15" fill="#FDE3AF" cx="103" cy="395" r="54"></circle>
+                <ellipse id="Oval-Copy-16" fill="#000000" filter="url(#filter-5)" cx="103" cy="384.5" rx="35" ry="34.5"></ellipse>
+                <ellipse id="Oval-Copy-55" stroke="#FDE3AF" stroke-width="6" fill="#000000" cx="105.5" cy="213" rx="12.5" ry="13"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>
