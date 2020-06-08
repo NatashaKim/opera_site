@@ -22,7 +22,7 @@ body {
     background-size: auto;
     box-sizing: border-box;
     /* cursor: none; */
-    background-image: url(../img/ipad_1.jpg);
+    background-image: url(../img/iphone_2.jpg);
 }
 
 * {
@@ -67,9 +67,12 @@ h1  {
   text-align: center;
   font-size: 12.7vw;
   line-height: 27.9vw;
-  border-bottom: 0.7vw solid var(--main-color);
   margin-top: 13.3vw;
   height: 26.5vw;
+}
+
+.main h1 {
+  border-bottom: 0.7vw solid var(--main-color);
 }
 
 .afisha_grid {
@@ -113,7 +116,7 @@ h1  {
   margin: 2.1vw 0 2.3vw;
 }
 
-h3 {
+h4 {
   font-size: 4.7vw;
   font-family: "Nolde";
 }
@@ -212,10 +215,10 @@ h2 {
       height: 66.1vw;
 }
 
-.magic_flute h3,
-.figaro h3,
-.onegin h3,
-.don_juan h3 {
+.magic_flute ,
+.figaro h4,
+.onegin h4,
+.don_juan h4 {
   margin-top: 5.1vw;
   padding-top: 3.1vw;
   border-top: 1vw solid;
@@ -243,7 +246,7 @@ h2 {
   text-align: center;
 }
 
-.center_ad h3 {
+.center_ad h4 {
   line-height: 8vw;
   height: 8.6vw;
   border-bottom: 0.7vw solid;
@@ -330,9 +333,12 @@ b {
   h1  {
     font-size: 8.7vw;
     line-height: 11.3vw;
-    border-bottom: 0.5vw solid var(--main-color);
     margin-top: 8.2vw;
     height: 12.1vw;
+  }
+
+  .main h1 {
+    border-bottom: 0.5vw solid var(--main-color);
   }
 
   .afisha_grid {
@@ -372,7 +378,7 @@ b {
     margin: 0.7vw 0 0.5vw;
   }
 
-  h3 {
+  h4 {
     font-size: 2.6vw;
   }
 
@@ -466,10 +472,10 @@ b {
     border-bottom: 0.5vw solid;
   }
 
-  .magic_flute h3,
-  .figaro h3,
-  .onegin h3,
-  .don_juan h3 {
+  .magic_flute h4,
+  .figaro h4,
+  .onegin h4,
+  .don_juan h4 {
     border-top: 0.4vw solid;
     padding-top: 1.3vw;
     margin-top: 2.4vw;
@@ -498,14 +504,13 @@ b {
     border: 0.2vw solid;
   }
 
-  .center_ad h3 {
+  .center_ad h4 {
     border-bottom: 0.7vw solid;
     line-height: 4vw;
     height: 5vw;
   }
 
   .atoms {
-    display: flex;
     height: 39.9vw;
   }
 
@@ -518,10 +523,6 @@ b {
   .atom_1 img,
   .atom_3 img {
     width: 20vw;
-  }
-
-  .atom_2 {
-    align-self: center;
   }
 
   .atom_2 img {
@@ -542,17 +543,14 @@ b {
   }
 
   footer {
-    display: flex;
     width: 100vw;
     height: 8vw;
-    justify-content: space-between;
     padding: 2vw 2.4vw 2.4vw 3vw;
     border-top: 0.4vw solid;
   }
 
   .logo {
     width: 14.3vw;
-    justify-content: space-between;
   }
 
   .logo img {
@@ -587,7 +585,6 @@ b {
     font-size: 5vw;
     font-size: 5.6vw;
     line-height: 8.9vw;
-    border-bottom: 0.5vw solid var(--main-color);
     margin-top: 6vw;
     height: 10vw;
   }
@@ -630,7 +627,7 @@ b {
     margin: 0;
   }
 
-  h3 {
+  h4 {
     font-size: 1.7vw;
     font-family: "Nolde";
   }
@@ -718,10 +715,10 @@ b {
     height: 21.1vw;
   }
 
-  .magic_flute h3,
-  .figaro h3,
-  .onegin h3,
-  .don_juan h3 {
+  .magic_flute h4,
+  .figaro h4,
+  .onegin h4,
+  .don_juan h4 {
     padding-top: 1.1vw;
     margin-top: 0;
     border-top: none;
@@ -750,7 +747,7 @@ b {
     border: 0.2vw solid;
   }
 
-  .center_ad h3 {
+  .center_ad h4 {
     line-height: 3vw;
     height: 3.6vw;
     border-bottom: 0.4vw solid;
@@ -842,8 +839,8 @@ b {
 }
 
 .about {
-  top: 95px;
-  left: 188px;
+  top: 25vw;
+  left: 50vw;
 }
 
 .about li:first-child {
@@ -904,4 +901,196 @@ b {
 .visit li:nth-child(2) {
   top: 245.8vw;
   left: 43.3vw;
+}
+
+@media (min-width: 768px) {
+
+  .map {
+    margin: 30.5vw 0vw 15.5vw 9vw;
+  }
+
+  .map img:first-child {
+    display: none;
+  }
+
+  .map img:nth-child(2) {
+    width: 82.5vw;
+    display: block;
+  }
+
+  .map img:nth-child(3) {
+    display: none;
+  }
+
+  .all li {
+    font-size: 3.5vw;
+  }
+
+  .all > li {
+    font-size: 6.1vw;
+  }
+
+  .about {
+    top: 22vw;
+    left: 52vw;
+  }
+
+  .about li:first-child {
+    top: 41.3vw;
+    left: 41.6vw;
+  }
+
+  .about li:nth-child(2) {
+    top: 55.5vw;
+    left: 31.1vw;
+  }
+
+  .repertoire {
+    top: 72.9vw;
+    left: 34.5vw;
+  }
+
+  .repertoire li:first-child {
+    top: 107.8vw;
+    left: 17.9vw;
+  }
+
+  .repertoire li:nth-child(2) {
+    top: 126.8vw;
+    left: 35.1vw;
+  }
+
+  .afisha {
+    top: 125.4vw;
+    left: 58.2vw;
+  }
+
+  .afisha li:first-child {
+    top: 152.1vw;
+    left: 45.2vw;
+  }
+
+  .afisha li:nth-child(2) {
+    top: 185.9vw;
+    left: 54vw;
+  }
+
+  .shop {
+    top: 179vw;
+    left: 76.3vw;
+  }
+
+  .visit {
+    top: 245.8vw;
+    left: 34vw;
+  }
+
+  .visit li:first-child {
+    top: 205.2vw;
+    left: 15.2vw;
+  }
+
+  .visit li:nth-child(2) {
+    top: 209.8vw;
+    left: 44.3vw;
+  }
+}
+
+@media (min-width: 1024px) {
+  .map {
+    margin: 16.4vw 0vw 7.8vw 3.7vw;
+  }
+
+  .map img:first-child {
+    display: none;
+  }
+
+  .map img:nth-child(2) {
+    display: none;
+  }
+
+  .map img:nth-child(3) {
+    width: 87.2vw;
+    display: block;
+  }
+
+  .all li {
+    font-size: 1.8vw;
+  }
+
+  .all > li {
+    font-size: 3.4vw;
+  }
+
+  .about {
+    top: 11.6vw;
+    left: 26.5vw;
+  }
+
+  .about li:first-child {
+    top: 22vw;
+    left: 21vw;
+  }
+
+  .about li:nth-child(2) {
+    top: 29.6vw;
+    left: 15.4vw;
+  }
+
+  .repertoire {
+    top: 38.8vw;
+    left: 17vw;
+  }
+
+  .repertoire li:first-child {
+    top: 57.4vw;
+    left: 8.5vw;
+  }
+
+  .repertoire li:nth-child(2) {
+    top: 67.1vw;
+    left: 17.5vw;
+  }
+
+  .afisha {
+    top: 54.1vw;
+    left: 47.2vw;
+  }
+
+  .afisha li:first-child {
+    top: 72.8vw;
+    left: 44.8vw;
+  }
+
+  .afisha li:nth-child(2) {
+    top: 87.6vw;
+    left: 56.3vw;
+  }
+
+  .shop {
+    top: 76.1vw;
+    left: 67.3vw;
+  }
+
+  .visit {
+    top: 39.3vw;
+    left: 68vw;
+  }
+
+  .visit li:first-child {
+    top: 17.1vw;
+    left: 57.7vw;
+  }
+
+  .visit li:nth-child(2) {
+    top: 19.6vw;
+    left: 73.2vw;
+  }
+}
+
+
+/* Repertoire */
+
+.repertoire h1 {
+  margin-top: 22.3vw;
 }
