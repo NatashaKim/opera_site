@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1356px" height="3366px" viewBox="0 0 1356 3366" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Group 7</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-61" transform="translate(0.000000, -435.000000)">
+            <g id="Group-7" transform="translate(-1.000000, 437.000000)">
+                <g id="Group-5" transform="translate(67.000000, 0.000000)">
+                    <path d="M15,798 C15.4905792,863.18036 47.52178,934.980239 285.610916,1027.08508 C523.700052,1119.18991 834.201178,1164.25154 974.86896,1225.29347 C1115.53674,1286.33539 1274.50942,1337.03123 1275,1458" id="Path-11" stroke="#FDE3AF" stroke-width="3"></path>
+                    <ellipse id="Oval" stroke="#FDE3AF" stroke-width="3" cx="346.5" cy="798" rx="330" ry="44.5"></ellipse>
+                    <g id="Group-4">
+                        <g id="Group-3" transform="translate(15.000000, 0.000000)">
+                            <ellipse id="Oval-Copy-4" stroke="#FDE3AF" stroke-width="3" cx="685" cy="243.5" rx="303.5" ry="44"></ellipse>
+                            <line x1="331" y1="801.420447" x2="843" y2="0.920447355" id="Path-13" stroke="#FDE3AF" stroke-width="3" stroke-dasharray="15,13"></line>
+                            <path d="M843.300091,0 C900.81496,22.6766277 943.048982,62.457197 970.002155,119.341708 C1010.43192,204.668475 990.965912,277.814076 945.392736,327.442312 C899.81956,377.070548 765.153154,452.321234 510.885118,512.509084 C256.617083,572.696935 0,641.415496 0,801" id="Path-12" stroke="#FDE3AF" stroke-width="3"></path>
+                            <circle id="Oval" stroke="#FDE3AF" stroke-width="3" cx="688" cy="244" r="13.5"></circle>
+                            <circle id="Oval-Copy-5" stroke="#FDE3AF" stroke-width="3" cx="987" cy="244" r="13.5"></circle>
+                            <text id="SUN" font-family="Circe-Regular, Circe" font-size="28" font-weight="normal" fill="#FDE3AF">
+                                <tspan x="604" y="252">SUN</tspan>
+                            </text>
+                            <text id="N" font-family="Circe-Regular, Circe" font-size="28" font-weight="normal" fill="#FDE3AF">
+                                <tspan x="964" y="216">N</tspan>
+                            </text>
+                            <line x1="688.5" y1="223.5" x2="688.5" y2="229" id="Path-15" stroke="#FDE3AF" stroke-width="3"></line>
+                            <line x1="687.5" y1="259.5" x2="687.5" y2="265" id="Path-15-Copy" stroke="#FDE3AF" stroke-width="3"></line>
+                            <line x1="674" y1="244.5" x2="668" y2="244.5" id="Path-15-Copy-3" stroke="#FDE3AF" stroke-width="3"></line>
+                            <line x1="709" y1="244.5" x2="703" y2="244.5" id="Path-15-Copy-2" stroke="#FDE3AF" stroke-width="3"></line>
+                            <line x1="678" y1="234" x2="674" y2="230" id="Path-15-Copy-4" stroke="#FDE3AF" stroke-width="3"></line>
+                            <line x1="702" y1="258" x2="698" y2="254" id="Path-15-Copy-5" stroke="#FDE3AF" stroke-width="3"></line>
+                            <path id="Line" d="M668.471775,170.443832 L668.495,176.443 L716.745984,176.250008 L717.745976,176.245992 L717.754008,178.245976 L716.754016,178.249992 L668.503,178.443 L668.527999,184.443719 L654.5,177.5 L668.471775,170.443832 Z" fill="#FDE3AF" fill-rule="nonzero"></path>
+                            <path id="Line-Copy" d="M710.971888,304.431508 L725,311.375 L711.028339,318.431394 L711.004,312.431 L663.004032,312.624992 L662.00404,312.629024 L661.995976,310.62904 L662.995968,310.625008 L710.995,310.431 L710.971888,304.431508 Z" fill="#FDE3AF" fill-rule="nonzero"></path>
+                        </g>
+                        <circle id="Oval-Copy-6" stroke="#FDE3AF" stroke-width="3" cx="15" cy="798" r="13.5"></circle>
+                        <text id="N-Copy" font-family="Circe-Regular, Circe" font-size="28" font-weight="normal" fill="#FDE3AF">
+                            <tspan x="25" y="776">N</tspan>
+                        </text>
+                        <polyline id="Path-16" stroke="#FDE3AF" stroke-width="3" points="586 396.531394 611 388 611 411"></polyline>
+                    </g>
+                    <line x1="346.5" y1="798.5" x2="943.5" y2="1452.5" id="Path-13-Copy" stroke="#FDE3AF" stroke-width="3" stroke-dasharray="15,13"></line>
+                </g>
+                <g id="Group-6" transform="translate(0.000000, 1400.000000)">
+                    <ellipse id="Oval-Copy" stroke="#FDE3AF" stroke-width="3" cx="1010.5" cy="52" rx="330" ry="44.5"></ellipse>
+                    <ellipse id="Oval-Copy-3" stroke="#FDE3AF" stroke-width="3" cx="1011.5" cy="1372" rx="330" ry="44.5"></ellipse>
+                    <ellipse id="Oval-Copy-2" stroke="#FDE3AF" stroke-width="3" cx="413.5" cy="713" rx="330" ry="44.5"></ellipse>
+                    <line x1="414.5" y1="713.5" x2="1010.5" y2="52" id="Path-13-Copy-2" stroke="#FDE3AF" stroke-width="3" stroke-dasharray="15,13"></line>
+                    <line x1="413.5" y1="712.5" x2="1036" y2="1373" id="Path-13-Copy-3" stroke="#FDE3AF" stroke-width="3" stroke-dasharray="15,13"></line>
+                    <line x1="0.75" y1="1962.75" x2="1052.75" y2="1370.75" id="Path-13-Copy-4" stroke="#FDE3AF" stroke-width="3" stroke-dasharray="15,13"></line>
+                    <path d="M82,55 C82.4905792,119.982843 114.52178,191.565147 352.610916,283.390878 C590.700052,375.21661 901.201178,420.141691 1041.86896,480.998639 C1182.53674,541.855588 1341.50942,592.397799 1342,713" id="Path-11-Copy" stroke="#FDE3AF" stroke-width="3" transform="translate(712.000000, 384.000000) scale(1, -1) translate(-712.000000, -384.000000) "></path>
+                    <path d="M82,712 C82.4905792,777.18036 114.52178,848.980239 352.610916,941.085076 C590.700052,1033.18991 901.201178,1078.25154 1041.86896,1139.29347 C1182.53674,1200.33539 1341.50942,1251.03123 1342,1372" id="Path-11-Copy-2" stroke="#FDE3AF" stroke-width="3"></path>
+                    <path d="M1,1372 C21.0374574,1390.60293 190.33291,1448.96653 374.065079,1490.70387 C557.797248,1532.44121 886.301815,1554.76893 1036.86438,1603.55792 C1187.42695,1652.3469 1341.50943,1714.41023 1342,1835" id="Path-11-Copy-3" stroke="#FDE3AF" stroke-width="3" transform="translate(671.500000, 1603.500000) scale(1, -1) translate(-671.500000, -1603.500000) "></path>
+                    <circle id="Oval-Copy-7" stroke="#FDE3AF" stroke-width="3" cx="1342" cy="52" r="13.5"></circle>
+                    <circle id="Oval-Copy-9" stroke="#FDE3AF" stroke-width="3" cx="82" cy="712" r="13.5"></circle>
+                    <circle id="Oval-Copy-8" stroke="#FDE3AF" stroke-width="3" cx="1340" cy="1372" r="13.5"></circle>
+                    <text id="N-Copy-2" font-family="Circe-Regular, Circe" font-size="28" font-weight="normal" fill="#FDE3AF">
+                        <tspan x="1307" y="29">N</tspan>
+                    </text>
+                    <text id="N-Copy-4" font-family="Circe-Regular, Circe" font-size="28" font-weight="normal" fill="#FCE2AE">
+                        <tspan x="1307" y="1347">N</tspan>
+                    </text>
+                    <text id="N-Copy-3" font-family="Circe-Regular, Circe" font-size="28" font-weight="normal" fill="#FDE3AF">
+                        <tspan x="92" y="690">N</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

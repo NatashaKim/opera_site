@@ -18,11 +18,11 @@ body {
   font-family: "Circe";
     color: var(--main-color);
     background-repeat: no-repeat;
-    /* background-color: black; */
+    background-color: black;
     background-size: auto;
     box-sizing: border-box;
     /* cursor: none; */
-    background-image: url(../img/iphone_2.jpg);
+    background-image: url(../img/iphone_3.jpg);
 }
 
 * {
@@ -64,7 +64,6 @@ header span {
 h1  {
   font-family: "Nolde";
   font-size: 5vw;
-  text-align: center;
   font-size: 12.7vw;
   line-height: 27.9vw;
   margin-top: 13.3vw;
@@ -73,6 +72,7 @@ h1  {
 
 .main h1 {
   border-bottom: 0.7vw solid var(--main-color);
+  text-align: center;
 }
 
 .afisha_grid {
@@ -215,7 +215,7 @@ h2 {
       height: 66.1vw;
 }
 
-.magic_flute ,
+.magic_flute h4,
 .figaro h4,
 .onegin h4,
 .don_juan h4 {
@@ -383,7 +383,7 @@ b {
   }
 
   p {
-    font-size: 1.6vw;
+    font-size: 1.9vw;
     line-height: 1.6vw;
   }
 
@@ -582,8 +582,7 @@ b {
   }
 
   h1  {
-    font-size: 5vw;
-    font-size: 5.6vw;
+    font-size: 6.6vw;
     line-height: 8.9vw;
     margin-top: 6vw;
     height: 10vw;
@@ -1093,4 +1092,467 @@ b {
 
 .repertoire h1 {
   margin-top: 22.3vw;
+  text-align: center;
+}
+
+h5 {
+  font-size: 4.3vw;
+  line-height: 5.7vw;
+  width: 75vw;
+}
+
+.repertoire h5 {
+  margin: 9.7vw auto 46.1vw;
+}
+
+.repertoire h5 {
+  text-align: center;
+}
+
+.repertoire  p {
+  text-align: center;
+}
+
+.left_column {
+  display: inline-block;
+  width: 49vw;
+  height: 205.5vw;
+  margin-bottom: 54vw;
+}
+
+.right_column {
+  width: 49vw;
+  height: 147vw;
+  margin-top: 29vw;
+  display: inline-block;
+  vertical-align: top;
+  text-align: right;
+  float: right;
+}
+
+.waves_rect {
+  width: 43.5vw;
+  margin-bottom: 28vw;
+}
+
+#cloud {
+  position: absolute;
+  width: 26.8vw;
+  left: 7vw;
+  top: 141vw;
+}
+
+#planet {
+  width: 44vw;
+  top: 172vw;
+  left: 56vw;
+  position: absolute;
+}
+
+#atom_2 {
+  position: absolute;
+  width: 28.5vw;
+  top: 206.5vw;
+  left: 6.5vw;
+}
+
+#relict_2 {
+  width: 38vw;
+  top: 236vw;
+  left: 59.3vw;
+  transform: rotate(199deg);
+  position: absolute;
+}
+
+#galaxy {
+  position: absolute;
+  top: 266vw;
+  left: 0vw;
+  width: 36vw;
+  transform: rotate(35deg);
+}
+
+#relict_3 {
+  position: absolute;
+  top: 296vw;
+  left: 57vw;
+  width: 44vw;
+  transform: rotate(-25deg);
+}
+
+#atom_1 {
+  position: absolute;
+  width: 21vw;
+  top: 323vw;
+  left: 12vw;
+}
+
+
+.axis {
+  position: absolute;
+  top: 129vw;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  margin: 0px 10vw;
+}
+
+.line_long {
+  width: 0.26vw;
+  vertical-align: top;
+  align-self: center;
+  margin: 2.6vw auto;
+}
+
+.line {
+  width: 0.26vw;
+  align-self: center;
+  margin: 2.4vw auto;
+}
+
+.text {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.text:nth-of-type(odd) {
+  text-align: left;
+}
+
+.text:nth-of-type(odd) p {
+  text-align: left;
+}
+
+.text:nth-of-type(even) {
+  text-align: right;
+}
+
+.text:nth-of-type(even) p {
+  text-align: right;
+}
+
+.text:nth-of-type(1) {
+  margin-left: 36.2vw;
+}
+
+.text:nth-of-type(2) {
+  margin-right: 38.7vw;
+}
+
+.text:nth-of-type(3) {
+  margin-left: 36.2vw;
+}
+
+.text:nth-of-type(4) {
+  margin-right: 38.7vw;
+}
+
+.text:nth-of-type(5) {
+  margin-left: 36.2vw;
+}
+
+.text:nth-of-type(6) {
+  margin-right: 38.7vw;
+}
+
+.text:nth-of-type(7) {
+  margin-left: 36.2vw;
+}
+
+.text h3 {
+  margin-bottom: 1.4vw;
+}
+
+h3 {
+  font-family: "Nolde";
+  font-size: 5vw;
+}
+
+@media (min-width: 768px) {
+
+  .repertoire h1 {
+    margin-top: 22.8vw;
+  }
+
+  h5 {
+    font-size: 2.4vw;
+    line-height: 3.5vw;
+  }
+
+  .repertoire h5 {
+    margin: 5.6vw auto 35.1vw;
+  }
+
+  .left_column {
+    margin-bottom: 40.5vw;
+  }
+
+  .right_column {
+  }
+
+  .waves_rect {
+    margin-bottom: 29vw;
+  }
+
+  #cloud {
+    top: 86vw;
+  }
+
+  #planet {
+    top: 118vw;
+  }
+
+  #atom_2 {
+    top: 151.5vw;
+  }
+
+  #relict_2 {
+    top: 181vw;
+  }
+
+  #galaxy {
+    top: 212vw;
+  }
+
+  #relict_3 {
+    top: 243vw;
+  }
+
+  #atom_1 {
+    top: 270vw;
+  }
+
+  .axis {
+    top: 75vw;
+  }
+
+  .line_long {
+    width: 0.265vw;
+  }
+
+  .line {
+    width: 0.28vw;
+  }
+
+  .text:nth-of-type(1) {
+    margin-left: 36.9vw;
+  }
+
+  .text:nth-of-type(2) {
+    margin-right: 37.1vw;
+  }
+
+  .text:nth-of-type(3) {
+    margin-left: 36.9vw;
+  }
+
+  .text:nth-of-type(4) {
+    margin-right: 37.1vw;
+  }
+
+  .text:nth-of-type(5) {
+    margin-left: 36.9vw;
+  }
+
+  .text:nth-of-type(6) {
+    margin-right: 37.1vw;
+  }
+
+  .text:nth-of-type(7) {
+    margin-left: 36.9vw;
+  }
+
+  .text h3 {
+    margin-bottom: 1vw;
+  }
+
+  h3 {
+    font-size: 4vw;
+  }
+
+}
+
+@media (min-width: 1024px) {
+
+  .repertoire h1 {
+    margin-top: 9.8vw;
+  }
+
+  h5 {
+    font-size: 1.8vw;
+    line-height: 2.1vw;
+  }
+
+  .repertoire h5 {
+    margin: 1.6vw auto 19.1vw;
+    width: 56vw;
+  }
+
+  .left_column {
+    margin-bottom: 21vw;
+    height: 153.3vw;
+  }
+
+  .right_column {
+    margin-top: 20.4vw;
+  }
+
+  .waves_rect {
+    margin-bottom: 11.5vw;
+  }
+
+  #cloud {
+    top: 46vw;
+  }
+
+  #planet {
+    top: 69vw;
+  }
+
+  #atom_2 {
+    top: 93.5vw;
+  }
+
+  #relict_2 {
+    top: 115vw;
+  }
+
+  #galaxy {
+    top: 136.5vw;
+  }
+
+  #relict_3 {
+    top: 160vw;
+  }
+
+  #atom_1 {
+    top: 177vw;
+  }
+
+  .axis {
+    top: 43vw;
+  }
+
+  .line_long {
+    margin: 1.1vw auto;
+    width: 0.2vw;
+  }
+
+  .line {
+    width: 0.194vw;
+    margin: 1.9vw auto;
+  }
+
+  .text:nth-of-type(odd) {
+    text-align: right;
+  }
+
+  .text:nth-of-type(odd) p {
+    text-align: right;
+  }
+
+  .text:nth-of-type(even) {
+    text-align: left;
+  }
+
+  .text:nth-of-type(even) p {
+    text-align: left;
+  }
+
+  .text:nth-of-type(1) {
+    margin-right: 37.3vw;
+    margin-left: 0;
+  }
+
+  .text:nth-of-type(2) {
+    margin-left: 38.5vw;
+    margin-right: 0;
+  }
+
+  .text:nth-of-type(3) {
+    margin-right: 37.3vw;
+    margin-left: 0;
+  }
+
+  .text:nth-of-type(4) {
+    margin-left: 38.5vw;
+    margin-right: 0;
+  }
+
+  .text:nth-of-type(5) {
+    margin-right: 37.3vw;
+    margin-left: 0;
+  }
+
+  .text:nth-of-type(6) {
+    margin-left: 38.5vw;
+    margin-right: 0;
+  }
+
+  .text:nth-of-type(7) {
+    margin-right: 37.3vw;
+    margin-left: 0;
+  }
+
+  .text h3 {
+    margin-bottom: 0.1vw;
+  }
+
+  h3 {
+    font-size: 2.5vw;
+  }
+
+}
+
+
+/* Shop */
+
+.offers {
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: url(../img/orbit_iphone.svg);
+}
+
+.shop h1 {
+  margin: 22.3vw 0 0 7vw;
+}
+
+.shop h5 {
+  width: 84vw;
+  margin: 9.6vw 0 16.1vw 7vw;
+}
+
+.goods {
+  text-align: center;
+}
+
+#programm {
+  width: 61vw;
+  margin-top: 69vw;
+}
+
+.curve {
+  display: none;
+}
+
+.small_curve {
+  position: absolute;
+  width: 82.45vw;
+  top: 209vw;
+  left: 9.1vw;
+}
+
+.description {
+  width: 71vw;
+  margin: 24.5vw 0 0 7vw;
+}
+
+.description h3 {
+  margin-bottom: 3.1vw;
+}
+
+.description p {
+  margin-top: 2.7vw;
+  line-height: 4.3vw;
+  font-size: 3.9vw;
 }
