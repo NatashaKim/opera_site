@@ -22,7 +22,7 @@ body {
     background-size: auto;
     box-sizing: border-box;
     /* cursor: none; */
-    background-image: url(../img/iphone_3.jpg);
+    background-image: url(../img/desktop_3.jpg);
 }
 
 * {
@@ -111,8 +111,8 @@ h1  {
   width: 20vw;
 }
 
-.saturn_rect p,
-.upiter_rect p {
+.saturn_rect small,
+.upiter_rect small {
   margin: 2.1vw 0 2.3vw;
 }
 
@@ -121,8 +121,8 @@ h4 {
   font-family: "Nolde";
 }
 
-p {
-  font-size: 3.4vw;
+small {
+  font-size: 3.3vw;
   line-height: 1.6vw;
 }
 
@@ -151,7 +151,7 @@ h2 {
   width: 19.3vw;
 }
 
-.upiter_rect p {
+.upiter_rect small {
   margin-bottom: 4.7vw;
 }
 
@@ -224,10 +224,10 @@ h2 {
   border-top: 1vw solid;
 }
 
-.magic_flute p,
-.figaro p,
-.onegin p,
-.don_juan p {
+.magic_flute small,
+.figaro small,
+.onegin small,
+.don_juan small {
   line-height: 4.6vw;
   padding-bottom: 3.9vw;
 }
@@ -373,8 +373,8 @@ b {
     width: 13.1vw;
   }
 
-  .saturn_rect p,
-  .upiter_rect p {
+  .saturn_rect small,
+  .upiter_rect small {
     margin: 0.7vw 0 0.5vw;
   }
 
@@ -382,7 +382,7 @@ b {
     font-size: 2.6vw;
   }
 
-  p {
+  small {
     font-size: 1.9vw;
     line-height: 1.6vw;
   }
@@ -409,7 +409,7 @@ b {
     width: 12.8vw
   }
 
-  .upiter_rect p {
+  .upiter_rect small {
     margin-bottom: 1.7vw;
   }
 
@@ -481,10 +481,10 @@ b {
     margin-top: 2.4vw;
   }
 
-  .magic_flute p,
-  .figaro p,
-  .onegin p,
-  .don_juan p {
+  .magic_flute small,
+  .figaro small,
+  .onegin small,
+  .don_juan small {
     padding-bottom: 0.9vw;
     line-height: 2vw;
   }
@@ -621,8 +621,8 @@ b {
     width: 8.5vw;
   }
 
-  .saturn_rect p,
-  .upiter_rect p {
+  .saturn_rect small,
+  .upiter_rect small {
     margin: 0;
   }
 
@@ -631,8 +631,8 @@ b {
     font-family: "Nolde";
   }
 
-  p {
-    font-size: 1.4vw;
+  small {
+    font-size: 1.3vw;
     line-height: 1.6vw;
   }
 
@@ -659,7 +659,7 @@ b {
     width: 8.3vw;
   }
 
-  .upiter_rect p {
+  .upiter_rect small {
     margin-bottom: 0.7vw;
   }
 
@@ -723,10 +723,10 @@ b {
     border-top: none;
   }
 
-  .magic_flute p,
-  .figaro p,
-  .onegin p,
-  .don_juan p {
+  .magic_flute small,
+  .figaro small,
+  .onegin small,
+  .don_juan small {
     line-height: 1.3vw;
     padding-bottom: 1.3vw;
   }
@@ -1109,7 +1109,7 @@ h5 {
   text-align: center;
 }
 
-.repertoire  p {
+.repertoire  small {
   text-align: center;
 }
 
@@ -1219,7 +1219,7 @@ h5 {
   text-align: left;
 }
 
-.text:nth-of-type(odd) p {
+.text:nth-of-type(odd) small {
   text-align: left;
 }
 
@@ -1227,7 +1227,7 @@ h5 {
   text-align: right;
 }
 
-.text:nth-of-type(even) p {
+.text:nth-of-type(even) small {
   text-align: right;
 }
 
@@ -1447,7 +1447,7 @@ h3 {
     text-align: right;
   }
 
-  .text:nth-of-type(odd) p {
+  .text:nth-of-type(odd) small {
     text-align: right;
   }
 
@@ -1455,7 +1455,7 @@ h3 {
     text-align: left;
   }
 
-  .text:nth-of-type(even) p {
+  .text:nth-of-type(even) small {
     text-align: left;
   }
 
@@ -1507,6 +1507,10 @@ h3 {
 
 /* Shop */
 
+.shop {
+  margin-bottom: 31.5vw;
+}
+
 .offers {
   background-repeat: no-repeat;
   background-size: auto;
@@ -1526,33 +1530,335 @@ h3 {
   text-align: center;
 }
 
-#programm {
+#programm img {
   width: 61vw;
-  margin-top: 69vw;
+  margin: 69vw 0 24.5vw;
 }
 
-.curve {
+.mask {
+  position: absolute;
+  width: 100vw;
+  top: 209.4vw;
+}
+
+.mask_2 {
   display: none;
 }
 
-.small_curve {
-  position: absolute;
-  width: 82.45vw;
-  top: 209vw;
-  left: 9.1vw;
-}
-
 .description {
-  width: 71vw;
-  margin: 24.5vw 0 0 7vw;
+  width: 78vw;
+  margin-left: 7vw;
 }
 
 .description h3 {
   margin-bottom: 3.1vw;
 }
 
-.description p {
+.description small {
   margin-top: 2.7vw;
   line-height: 4.3vw;
-  font-size: 3.9vw;
+}
+
+p {
+  font-size: 4.1vw;
+  line-height: 4.5vw;
+  letter-spacing: -0.05vw;
+}
+
+.description p {
+  margin: 2.4vw 0 2vw;
+}
+
+.buy_button {
+  display: block;
+  margin-top: 5.5vw;
+  border-radius: 4vw;
+  padding: 1vw 2.3vw;
+  font-size: 4vw;
+  line-height: 6vw;
+  height: 6.9vw;
+  width: 21vw;
+  color: black;
+  background-color: var(--main-color);
+}
+
+#notebook img {
+  width: 65vw;
+  margin: 10vw 0 9vw 10vw;
+}
+
+#disk img {
+  width: 61vw;
+  margin: 20vw 0 19.2vw 1vw;
+}
+
+#bag img {
+  width: 54vw;
+  margin: -17vw 0 36.2vw 8vw;
+}
+
+.shop h2 {
+  width: 80vw;
+  margin: 35.3vw 10vw 19vw 10vw;
+  line-height: 8.5vw;
+  text-align: center;
+}
+
+#book {
+  width: 55vw;
+  margin: 0 0 10vw 22vw;
+}
+
+@media (min-width: 768px) {
+
+  .shop {
+    margin-bottom: 12.7vw;
+  }
+
+  .offers {
+    background-image: url(../img/orbit_desktop.svg);
+    display: flex;
+    flex-wrap: wrap;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .shop h1 {
+    margin: 19.6vw 0 0 6vw;
+  }
+
+  .shop h5 {
+    width: 78vw;
+    margin: 5.6vw 0 9.1vw 6vw;
+  }
+
+  .goods {
+    display: inline-block;
+  }
+
+  #programm  {
+    order: 1;
+  }
+
+  #programm img {
+    width: 33.5vw;
+    margin: 40vw 0 16.5vw 13vw;
+  }
+
+  .mask {
+    display: none;
+  }
+
+  .mask_2 {
+    position: absolute;
+    width: 91.4vw;
+    top: 114.3vw;
+    display: block;
+  }
+
+  .description {
+    width: 40vw;
+    display: inline-block;
+    vertical-align: top;
+    height: 35vw;
+    margin-left: 7.7vw;
+  }
+
+  .offers div:nth-of-type(2) {
+    margin: 38vw 0 0 7.3vw;
+    order: 2;
+  }
+
+
+  .description h3 {
+    margin-bottom: 1.9vw;
+  }
+
+  p {
+    font-size: 2.3vw;
+    line-height: 2.8vw;
+  }
+
+  .description p {
+    margin: 2.1vw 0 0vw;
+  }
+
+  .buy_button {
+    margin-top: 2.9vw;
+    padding: 0.7vw 1.3vw;
+    font-size: 2.1vw;
+    line-height: 3vw;
+    height: 3.9vw;
+    width: 11.3vw;
+  }
+
+  #notebook {
+    order: 4;
+  }
+
+  #notebook img {
+    width: 31vw;
+    margin: -9vw 0 3.7vw 10vw;
+  }
+
+  .offers div:nth-of-type(4) {
+    order: 3;
+  }
+
+  #disk {
+    order: 5;
+  }
+
+  #disk img {
+    width: 33vw;
+    margin: 8.3vw 0.5vw 14.6vw 13vw;
+  }
+
+  .offers div:nth-of-type(6) {
+    order: 6;
+  }
+
+  #bag {
+    order: 8;
+  }
+
+  #bag img {
+    width: 30vw;
+    margin: -11vw 0 25.2vw 9vw;
+  }
+
+  .offers div:nth-of-type(8) {
+    order: 7;
+  }
+
+  .shop h2 {
+    margin: 7.7vw 10vw 12vw 10vw;
+    line-height: 7.5vw;
+  }
+
+  #book {
+    width: 30vw;
+    margin: 0 3vw 10vw 13vw;
+  }
+
+}
+
+@media (min-width: 1440px) {
+  .shop {
+    margin-bottom: 6.7vw;
+  }
+
+  .offers {
+  }
+
+  .shop h1 {
+    margin: 9.6vw 0 0 6vw;
+  }
+
+  .shop h5 {
+    width: 58vw;
+    margin: 1.6vw 0 0.5vw 5.5vw;
+  }
+
+  #programm img {
+    width: 34.5vw;
+    margin: 40.5vw 0 20.7vw 11.5vw;
+  }
+
+  .mask {
+  }
+
+  .mask_2 {
+    width: 93.2vw;
+    top: 85.55vw;
+  }
+
+  .description {
+    margin-left: 16.7vw;
+    width: 24vw;
+  }
+
+  .offers div:nth-of-type(2) {
+    margin: 42.8vw 0 0 8.3vw;
+  }
+
+  .description h3 {
+    width: 14vw;
+    margin-bottom: 1.5vw;
+  }
+
+  .description small {
+    line-height: 5.3vw;
+  }
+
+  p {
+    font-size: 1.3vw;
+    line-height: 1.5vw;
+  }
+
+  .description p {
+    margin: 1.1vw 0 0vw;
+  }
+
+  .description span {
+    font-size: 1.3vw;
+  }
+
+  .buy_button {
+    margin-top: -0.7vw;
+    padding: 0.7vw 1.4vw;
+    line-height: 1.7vw;
+    height: 2.9vw;
+    width: 7.7vw;
+  }
+
+  #notebook {
+  }
+
+  #notebook img {
+    width: 32vw;
+    margin: -15vw 0 11.9vw 15vw;
+  }
+
+  .offers div:nth-of-type(4) {
+  }
+
+  #disk {
+  }
+
+  #disk img {
+    width: 34vw;
+    margin: 2.5vw 0.5vw 21.1vw 11vw;
+  }
+
+  .offers div:nth-of-type(6) {
+    margin-left: 8.7vw;
+  }
+
+  #bag {
+  }
+
+  #bag img {
+    width: 30vw;
+    margin: -17vw 0 26.2vw 16vw;
+  }
+
+  .offers div:nth-of-type(8) {
+  }
+
+  .shop h2 {
+    margin: 5.7vw 10vw 14.5vw 10vw;
+    line-height: 4.9vw;
+  }
+
+  #book {
+    width: 30.5vw;
+    margin: 0 0 10vw 12vw;
+  }
+
+  #new {
+    margin-left: 11.3vw;
+    margin-top: 9.3vw;
+  }
+
 }

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="375px" height="1876px" viewBox="0 0 375 1876" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Group 7</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-79" transform="translate(0.000000, -786.000000)" stroke="#FDE3AF" stroke-width="2">
+            <g id="Group-7" transform="translate(-285.000000, 787.000000)">
+                <g id="Group-6" transform="translate(309.000000, 0.000000)">
+                    <g id="Oval">
+                        <ellipse cx="164.5" cy="0.5" rx="153.5" ry="20.5"></ellipse>
+                    </g>
+                    <path d="M12,0 C12.2285476,30.318743 27.1510197,63.7165656 138.070324,106.55927 C248.989627,149.401975 393.643723,170.362461 459.177047,198.756204 C524.710372,227.149947 598.771452,250.731192 599,307" id="Path-11"></path>
+                </g>
+                <g id="Group-4" transform="translate(306.000000, 1167.000000)">
+                    <g id="Oval-Copy-2">
+                        <ellipse cx="168.5" cy="0.5" rx="153.5" ry="20.5"></ellipse>
+                    </g>
+                    <path d="M14,1 C14.2285476,31.4175011 29.1510197,64.9241114 140.070324,107.906369 C250.989627,150.888626 395.643723,171.917387 461.177047,200.403618 C526.710372,228.88985 600.771452,252.547906 601,309" id="Path-11-Copy-2"></path>
+                </g>
+                <g id="Group-5" transform="translate(41.000000, 579.000000)">
+                    <g id="Oval-Copy" transform="translate(271.000000, 0.000000)">
+                        <ellipse cx="162" cy="0.5" rx="154" ry="20.5"></ellipse>
+                    </g>
+                    <path d="M0,2 C0.228547597,32.2199849 15.1510197,65.5090198 126.070324,108.212171 C236.989627,150.915323 392.150065,183.357184 447.177047,200.10879 C502.20403,216.860395 582.498524,245.785607 587,308" id="Path-11-Copy" transform="translate(293.500000, 155.000000) scale(1, -1) translate(-293.500000, -155.000000) "></path>
+                </g>
+                <g id="Group-3" transform="translate(0.000000, 1732.000000)">
+                    <g id="Oval-Copy-3" transform="translate(312.000000, 0.000000)">
+                        <ellipse cx="158" cy="-0.5" rx="154" ry="20.5"></ellipse>
+                    </g>
+                    <path d="M0,0 C9.33885973,8.63850949 88.2424079,35.7403959 173.874478,55.1216672 C259.506547,74.5029385 412.612703,84.871103 482.785413,107.526894 C552.958124,130.182685 624.771361,159.002592 625,215" id="Path-11-Copy-3" transform="translate(312.500000, 107.500000) scale(1, -1) translate(-312.500000, -107.500000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
