@@ -11,6 +11,9 @@
     <script>
       let scene, camera, renderer;
       function init() {
+        renderer = new THREE.WebGLRenderer();
+renderer.setSize( window.innerWidth, window.innerHeight );
+document.body.appendChild( renderer.domElement );
         scene = new THREE.Scene();
         scene.background = new THREE.Color(0xdddddd);
         camera = new THREE.PerspectiveCamera(40,window.innerWidth/window.innerHeight,1,5000);
@@ -18,8 +21,12 @@
         camera.position.x = 800;
         camera.position.y = 100;
         camera.position.z = 1000;
-        controls = new THREE.OrbitControls(camera);
-        controls.addEventListener('change', renderer);
+        controls = new THREE.OrbitControls(camera, renderer.domElement);
+        controls.enableDamping = true;
+controls.dampingFactor = 0.25;
+controls.enableZoom = true;
+controls.autoRotate = true;
+        // controls.addEventListener('change', renderer);
         hlight = new THREE.AmbientLight (0x404040,100);
         scene.add(hlight);
         directionalLight = new THREE.DirectionalLight(0xffffff,100);
@@ -42,7 +49,7 @@
         renderer.setSize(window.innerWidth,window.innerHeight);
         document.body.appendChild(renderer.domElement);
         let loader = new THREE.GLTFLoader();
-        loader.load('../js/scene_1.gltf', function(gltf){
+        loader.load('http://localhost:8888/scene_1.gltf', function(gltf){
           car = gltf.scene.children[0];
           car.scale.set(0.5,0.5,0.5);
           scene.add(gltf.scene);
@@ -50,6 +57,7 @@
         });
       }
       function animate() {
+        controls.update();
         renderer.render(scene,camera);
         requestAnimationFrame(animate);
       }
