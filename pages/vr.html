@@ -5,6 +5,30 @@
     <link rel="stylesheet" type="text/css" href="../css/master.css" />
   </head>
   <body>
+    <div class="wrapper">
+      <div class="vr">
+
+
+
+      <header>
+        <span>Космоопера</span>
+        <img src="../img/burger.svg" alt="Бургер">
+      </header>
+    <div id="container">
+
+    </div>
+
+    <footer>
+      <span>© 2019 — 2020, Космоопера</span>
+      <div class="logo">
+        <img src="../img/facebook.svg" alt="facebook">
+        <img src="../img/twitter.svg" alt="twitter">
+        <img src="../img/instagram.svg" alt="instagram">
+      </div>
+    </footer>
+
+    </div>
+    </div>
     <script src="../js/three.min.js"></script>
     <script src="../js/GLTFLoader.js"></script>
     <script src="../js/OrbitControls.js"></script>
@@ -12,10 +36,10 @@
       let scene, camera, renderer;
       function init() {
         renderer = new THREE.WebGLRenderer();
-renderer.setSize( window.innerWidth, window.innerHeight );
-document.body.appendChild( renderer.domElement );
+        renderer.setSize( window.innerWidth, window.innerHeight );
+        document.body.appendChild( renderer.domElement );
         scene = new THREE.Scene();
-        scene.background = new THREE.Color(0xdddddd);
+        scene.background = new THREE.Color(0x000000);
         camera = new THREE.PerspectiveCamera(40,window.innerWidth/window.innerHeight,1,5000);
         camera.rotation.y = 45/180*Math.PI;
         camera.position.x = 800;
@@ -23,9 +47,9 @@ document.body.appendChild( renderer.domElement );
         camera.position.z = 1000;
         controls = new THREE.OrbitControls(camera, renderer.domElement);
         controls.enableDamping = true;
-controls.dampingFactor = 0.25;
-controls.enableZoom = true;
-controls.autoRotate = true;
+        controls.dampingFactor = 0.25;
+        controls.enableZoom = true;
+        controls.autoRotate = true;
         // controls.addEventListener('change', renderer);
         hlight = new THREE.AmbientLight (0x404040,100);
         scene.add(hlight);
@@ -47,9 +71,9 @@ controls.autoRotate = true;
         scene.add(light4);
         renderer = new THREE.WebGLRenderer({antialias:true});
         renderer.setSize(window.innerWidth,window.innerHeight);
-        document.body.appendChild(renderer.domElement);
+        document.querySelector('#container').appendChild(renderer.domElement);
         let loader = new THREE.GLTFLoader();
-        loader.load('http://localhost:8888/scene_1.gltf', function(gltf){
+        loader.load('http://localhost:8888/building.gltf', function(gltf){
           car = gltf.scene.children[0];
           car.scale.set(0.5,0.5,0.5);
           scene.add(gltf.scene);
