@@ -1,25 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="207px" height="202px" viewBox="0 0 207 202" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
-    <title>Group 8</title>
+    <title>Group 11</title>
     <desc>Created with Sketch.</desc>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Artboard-Copy-80" transform="translate(-21.000000, -876.000000)" stroke-width="2">
-            <g id="Group-8" transform="translate(21.000000, 876.000000)">
-                <ellipse id="Oval-Copy-34" stroke="#FDE3AF" cx="101.5" cy="101" rx="100.5" ry="100"></ellipse>
-                <line x1="0" y1="102.5" x2="203" y2="102.5" id="Path-25-Copy-2" stroke="#FDE3AF"></line>
-                <line x1="101.5" y1="202" x2="101.5" y2="0" id="Path-25-Copy-3" stroke="#FDE3AF"></line>
-                <path d="M102.01565,2 C63.3960025,10.6948463 40.8972646,52.8390783 36.5073947,77.6117467 C32.1175249,102.384415 36.1455102,134.613176 64.3716592,154.627109 C92.5978083,174.641042 134.376625,168.796325 150.804056,148.388194 C167.231487,127.980064 168.688646,116.933396 170,101.351898" id="Path-26-Copy" stroke="#FDE3AF"></path>
-                <path d="M101.588544,45 C127.61025,47.6441017 141.972189,63.6880821 148.282576,74.986907 C154.592964,86.285732 161.335431,120.456568 143.77741,140.567264 C126.21939,160.67796 97.8106046,172.910642 63.727282,156.051017 C41.0050669,144.811267 28.7626396,126.392492 27,100.794691" id="Path-27-Copy" stroke="#FDE3AF"></path>
-                <path d="M153,16.2386523 C132.195636,11.6219758 112.490225,14.9880201 95.741999,18.7678097 C78.9937726,22.5475992 64.3645693,32.111419 50,45" id="Path-29-Copy" stroke="#FDE3AF"></path>
-                <polygon id="Path-30-Copy" stroke="#FDE3AF" points="78 103 101.5 196.633758 124.878394 103 149 148.540862"></polygon>
-                <polygon id="Path-31-Copy" stroke="#F8DFAD" points="20 149 125.141189 102.396241 135 147.451859 79.8338369 102"></polygon>
-                <ellipse id="Oval-Copy-35" stroke="#FDE3AF" fill="#FDE3AF" cx="101.5" cy="101" rx="13.5" ry="14"></ellipse>
-                <circle id="Oval-Copy-37" stroke="#FDE3AF" fill="#FDE3AF" cx="198" cy="73" r="5"></circle>
-                <circle id="Oval-Copy-57" stroke="#FDE3AF" fill="#FDE3AF" cx="143" cy="71" r="5"></circle>
-                <circle id="Oval-Copy-56" stroke="#FDE3AF" fill="#FDE3AF" cx="201" cy="91" r="5"></circle>
-                <polyline id="Path-70" stroke="#FDE3AF" points="185 46.9566118 101 102 152.833745 15"></polyline>
-                <polyline id="Path-71" stroke="#FDE3AF" points="35.2360803 25 101 102 14 52.6987486"></polyline>
+            <g id="Group-11" transform="translate(21.000000, 876.000000)">
+                <g id="Group-8">
+                    <ellipse id="Oval-Copy-34" stroke="#FDE3AF" cx="101.5" cy="101" rx="100.5" ry="100"></ellipse>
+                    <line x1="0" y1="102.5" x2="203" y2="102.5" id="Path-25-Copy-2" stroke="#FDE3AF"></line>
+                    <line x1="101.5" y1="202" x2="101.5" y2="0" id="Path-25-Copy-3" stroke="#FDE3AF"></line>
+                    <path d="M102.01565,2 C63.3960025,10.6948463 40.8972646,52.8390783 36.5073947,77.6117467 C32.1175249,102.384415 36.1455102,134.613176 64.3716592,154.627109 C92.5978083,174.641042 134.376625,168.796325 150.804056,148.388194 C167.231487,127.980064 168.688646,116.933396 170,101.351898" id="Path-26-Copy" stroke="#FDE3AF"></path>
+                    <path d="M153,16.2386523 C132.195636,11.6219758 112.490225,14.9880201 95.741999,18.7678097 C78.9937726,22.5475992 64.3645693,32.111419 50,45" id="Path-29-Copy" stroke="#FDE3AF"></path>
+                    <polygon id="Path-30-Copy" stroke="#FDE3AF" points="78 103 101.5 196.633758 124.878394 103 149 148.540862"></polygon>
+                    <polygon id="Path-31-Copy" stroke="#F8DFAD" points="20 149 125.141189 102.396241 135 147.451859 79.8338369 102"></polygon>
+                    <ellipse id="Oval-Copy-35" stroke="#FDE3AF" fill="#FDE3AF" cx="101.5" cy="101" rx="13.5" ry="14"></ellipse>
+                    <polyline id="Path-70" stroke="#FDE3AF" points="185 46.9566118 101 102 152.833745 15"></polyline>
+                    <polyline id="Path-71" stroke="#FDE3AF" points="35.2360803 25 101 102 14 52.6987486"></polyline>
+                    <circle id="Oval-Copy-37" stroke="#FDE3AF" fill="#FDE3AF" cx="198" cy="73" r="5"></circle>
+                    <circle id="Oval-Copy-57" stroke="#FDE3AF" fill="#FDE3AF" cx="147" cy="72" r="5"></circle>
+                    <circle id="Oval-Copy-56" stroke="#FDE3AF" fill="#FDE3AF" cx="201" cy="102" r="5"></circle>
+                </g>
+                <path d="M101.588544,45 C127.61025,47.6441017 140.627803,60 149,73 C157.372197,86 160.951726,118.433109 143,140.165116 C125.048274,161.897123 96.9130888,170.109681 62.8297662,153.250056 C40.1075511,142.010306 28.1642957,124.525184 27,100.794691" id="Path-27-Copy" stroke="#FDE3AF"></path>
             </g>
         </g>
     </g>

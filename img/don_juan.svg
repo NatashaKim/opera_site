@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="178px" height="187px" viewBox="0 0 178 187" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="178px" height="178px" viewBox="0 0 178 178" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
-    <title>Group 11</title>
+    <title>Group 10</title>
     <desc>Created with Sketch.</desc>
     <defs>
         <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-1">
@@ -9,14 +9,11 @@
         </filter>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard-Copy-80" transform="translate(-1219.000000, -1172.000000)">
-            <g id="Group-11" transform="translate(1219.000000, 1172.000000)">
-                <ellipse id="Oval-Copy-51" fill="#FDE3AF" cx="90" cy="95.5" rx="46" ry="46.5"></ellipse>
-                <ellipse id="Oval-Copy-52" fill="#000000" filter="url(#filter-1)" cx="88" cy="86.5" rx="30" ry="28.5"></ellipse>
-                <circle id="Oval-Copy-39" stroke="#FDE3AF" stroke-width="2" cx="89" cy="98" r="88"></circle>
-                <ellipse id="Oval-Copy-42" stroke="#FDE3AF" stroke-width="2" fill="#FDE3AF" cx="43.5" cy="174" rx="8.5" ry="8"></ellipse>
-                <circle id="Oval-Copy-49" stroke="#FDE3AF" stroke-width="2" fill="#FDE3AF" cx="134" cy="174" r="8"></circle>
-                <circle id="Oval-Copy-50" stroke="#FDE3AF" stroke-width="2" fill="#FDE3AF" cx="90" cy="9" r="8"></circle>
+        <g id="Artboard-Copy-80" transform="translate(-1219.000000, -1181.000000)">
+            <g id="Group-10" transform="translate(1219.000000, 1181.000000)">
+                <ellipse id="Oval-Copy-51" fill="#FDE3AF" cx="90" cy="86.5" rx="46" ry="46.5"></ellipse>
+                <ellipse id="Oval-Copy-52" fill="#000000" filter="url(#filter-1)" cx="88" cy="77.5" rx="30" ry="28.5"></ellipse>
+                <circle id="Oval-Copy-39" stroke="#FDE3AF" stroke-width="2" cx="89" cy="89" r="88"></circle>
             </g>
         </g>
     </g>

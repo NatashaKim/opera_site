@@ -27,7 +27,7 @@ body {
    background-size: auto;
    box-sizing: border-box;
    /* cursor: none; */
-   /* background-image: url(../img/ipad.jpg); */
+   background-image: url(../img/decktop6.jpg);
 }
 
 * {
@@ -498,6 +498,71 @@ footer span {
 b {
   display: none;
 }
+
+/* Для анимации */
+
+.onegin_circle,
+.onegin_circle_2 {
+    position: absolute;
+    border-radius: 50%;
+    width: 2vw;
+    height: 2vw;
+    background-color: var(--main-color);
+}
+
+.onegin_circle,
+.onegin_circle_2 {
+    top: 122vw;
+    left: 29vw;
+}
+
+.onegin_path,
+.onegin_path_2 {
+  position: absolute;
+  top: 123.02vw;
+  left: 29.96vw;
+  width: 16.95vw;
+}
+
+
+.don_juan_circle,
+.don_juan_circle_2,
+.don_juan_circle_3 {
+  top: 122vw;
+  left: 52vw;
+  position: absolute;
+  border-radius: 50%;
+  width: 2vw;
+  height: 2vw;
+  background-color: var(--main-color);
+}
+
+.don_juan_path {
+  position: absolute;
+  top: 103.02vw;
+  left: 52.96vw;
+  width: 16.95vw;
+}
+
+.magic_flute_circle {
+  top: 92vw;
+  left: 30vw;
+  position: absolute;
+  border-radius: 50%;
+  width: 1vw;
+  height: 1vw;
+  background-color: var(--main-color);
+  transition: rotate(45deg)
+}
+
+.magic_flute_path {
+  position: absolute;
+  top: 92.84vw;
+  left: 29.99vw;
+  width: 64.6vw;
+}
+
+
 
 @media (min-width: 768px) {
   header {
@@ -2804,16 +2869,96 @@ p {
 }
 
 
-.vr {
-  overflow: hidden;
+
+
+
+/* Vr */
+
+.wrapper_vr {
   width: 100vw;
   height: 100vh;
+  position: relative;
+  top: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.vr header {
+  top: 0;
+}
+
+.vr footer {
+  bottom: 0;
+  position: absolute;
+  background-color: black;
 }
 
 #container {
-  width: 100vw;
   height: 50vw;
+  padding-top: 49vw;
 }
+
+
+#canvas {
+  width: 100vw;
+  height: 30vw;
+}
+
+.vr h1 {
+  position: absolute;
+  top: 35px;
+  left: 7vw;
+  width: 100%;
+  display: block;
+}
+
+.vr h5 {
+  position: absolute;
+  top: 59.2vw;
+  left: 7vw;
+  width: 70vw;
+}
+
+@media (min-width: 768px) {
+
+
+  #container {
+    height: 50vw;
+    padding-top: 29vw;
+  }
+
+  .vr  h1 {
+    top: 88px;
+    left: 6.3vw;
+  }
+
+  .vr h5 {
+    top: 37.7vw;
+    left: 6.5vw;
+  }
+}
+
+@media (min-width: 1024px) {
+
+  #container {
+    height: 50vw;
+    padding-top: 15vw;
+  }
+
+  .vr h1 {
+    top: 53px;
+    left: 5.7vw;
+  }
+
+  .vr h5 {
+    top: 21.2vw;
+    left: 5.5vw;
+    width: 48vw;
+  }
+}
+
+
+
 
 
 /* Afisha */
