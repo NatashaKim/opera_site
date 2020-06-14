@@ -76,10 +76,13 @@ function setChildsDisplay(elementId, display){
 
 // Зафиксировать окно
 
+let trigger1 = document.querySelector('#trigger1');
+
 let controller = new ScrollMagic.Controller()
 
 let mainScene = new ScrollMagic.Scene({
-  duration: 21000
+  duration: 21000,
+  triggerElement: trigger1
 });
 mainScene.setPin('#wrapper_2');
 mainScene.addTo(controller);
@@ -99,7 +102,7 @@ var mainInfo = document.getElementById("main_info");
 
 let path = anime.path('#curve')
 let svgMotion = anime({
-  targets: '.map .slider',
+  targets: '.map_cast .slider',
   translateX: path('x'),
   translateY: path('y'),
   rotate: path('angle'),
@@ -114,7 +117,6 @@ let svgMotion = anime({
 
 // Большой взрыв
 
-let trigger1 = document.querySelector('#trigger1');
 new ScrollMagic.Scene({ offset:0, duration:9000})
 .setTween(TweenMax.fromTo(".big_bang", 1,  { scale: 1.0 }, { scale: 0.0, ease:Quad.easeOut}))
 .addTo(controller);
