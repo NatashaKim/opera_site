@@ -505,61 +505,149 @@ b {
 .onegin_circle_2 {
     position: absolute;
     border-radius: 50%;
-    width: 2vw;
-    height: 2vw;
+    width: 5vw;
+    height: 5vw;
     background-color: var(--main-color);
 }
 
 .onegin_circle,
 .onegin_circle_2 {
-    top: 122vw;
-    left: 29vw;
+    top: 224.5vw;
+    left: 4.5vw;
 }
 
 .onegin_path,
 .onegin_path_2 {
   position: absolute;
-  top: 123.02vw;
-  left: 29.96vw;
-  width: 16.95vw;
+  top: 227.07vw;
+  left: 6.96vw;
+  width: 35.97vw;
 }
 
 
 .don_juan_circle,
 .don_juan_circle_2,
 .don_juan_circle_3 {
-  top: 122vw;
-  left: 52vw;
+  top: 225vw;
+  left: 55vw;
   position: absolute;
   border-radius: 50%;
-  width: 2vw;
-  height: 2vw;
+  width: 4vw;
+  height: 4vw;
   background-color: var(--main-color);
 }
 
-.don_juan_path {
+.don_juan_path,
+.don_juan_path_2,
+.don_juan_path_3 {
   position: absolute;
-  top: 103.02vw;
-  left: 52.96vw;
-  width: 16.95vw;
+  top: 227.1vw;
+  left: 57vw;
+  width: 35.95vw;
 }
 
-.magic_flute_circle {
-  top: 92vw;
-  left: 30vw;
+.magic_flute_circle,
+.magic_flute_circle_2,
+.magic_flute_circle_3,
+.figaro_circle,
+.figaro_circle_2,
+.figaro_circle_3,
+.figaro_circle_4 {
   position: absolute;
   border-radius: 50%;
-  width: 1vw;
-  height: 1vw;
+  width: 2vw;
+  height:2vw;
   background-color: var(--main-color);
   transition: rotate(45deg)
 }
 
+.magic_flute_circle {
+  top: 159.6vw;
+  left: 5.8vw;
+}
+
+.magic_flute_circle_2 {
+  top: 160.1vw;
+  left: 6.2vw;
+}
+
+.magic_flute_circle_3 {
+  top: 160.1vw;
+  left: 6vw;
+}
+
 .magic_flute_path {
   position: absolute;
-  top: 92.84vw;
-  left: 29.99vw;
-  width: 64.6vw;
+  top: 161.1vw;
+  left: 12.94vw;
+  width: 32.5vw;
+}
+
+.magic_flute_path_2 {
+  position: absolute;
+  top: 163.3vw;
+  left: 13vw;
+  width: 29vw;
+}
+
+.magic_flute_path_3 {
+  position: absolute;
+  top: 165.2vw;
+  left: 7.06vw;
+  width: 35.2vw;
+}
+
+.figaro_circle {
+  top: 160vw;
+  left: 56.2vw;
+}
+
+.figaro_circle_2 {
+  top: 160.1vw;
+  left: 56.5vw;
+}
+
+.figaro_circle_3 {
+  top: 159.9vw;
+  left: 55.8vw;
+}
+
+.figaro_circle_4 {
+  top: 159.4vw;
+  left: 55.4vw;
+}
+
+.figaro_path,
+.figaro_path_2 {
+  position: absolute;
+  top: 178.8vw;
+  left: 57.4vw;
+  width: 35.5vw;
+}
+
+.figaro_path_3 {
+  position: absolute;
+  top: 161.2vw;
+  left: 63.3vw;
+  width: 12vw;
+}
+
+.figaro_path_4 {
+  position: absolute;
+  top: 166.7vw;
+  left: 75.07vw;
+  width: 13.3vw;
+}
+
+.home_svg svg {
+  transform: rotate(0);
+}
+
+.main_pic_2 {
+  position: absolute;
+  top: 53.1vw;
+  left: 0;
+  width: 100vw;
 }
 
 
@@ -813,6 +901,134 @@ b {
     display: none;
   }
 
+  /* Для анимации */
+
+  .onegin_circle,
+  .onegin_circle_2 {
+      width: 2vw;
+      height: 2vw;
+  }
+
+  .onegin_circle,
+  .onegin_circle_2 {
+      top: 122vw;
+      left: 29vw;
+  }
+
+  .onegin_path,
+  .onegin_path_2 {
+    top: 123.02vw;
+    left: 29.96vw;
+    width: 16.95vw;
+  }
+
+
+  .don_juan_circle,
+  .don_juan_circle_2,
+  .don_juan_circle_3 {
+    top: 122vw;
+    left: 52vw;
+    width: 2vw;
+    height: 2vw;
+  }
+
+  .don_juan_path,
+  .don_juan_path_2,
+  .don_juan_path_3 {
+    top: 103.02vw;
+    left: 52.96vw;
+    width: 16.95vw;
+  }
+
+  .magic_flute_circle,
+  .magic_flute_circle_2,
+  .magic_flute_circle_3,
+  .figaro_circle,
+  .figaro_circle_2,
+  .figaro_circle_3,
+  .figaro_circle_4 {
+    width: 1vw;
+    height: 1vw;
+  }
+
+  .magic_flute_circle {
+    top: 92.5vw;
+    left: 29.5vw;
+  }
+
+  .magic_flute_circle_2 {
+    top: 92.4vw;
+    left: 29.5vw;
+  }
+
+  .magic_flute_circle_3 {
+    top: 92.4vw;
+    left: 29.5vw;
+  }
+
+  .magic_flute_path {
+    position: absolute;
+    top: 93.2vw;
+    left: 32.8vw;
+    width: 15.1vw;
+  }
+
+  .magic_flute_path_2 {
+    top: 94.03vw;
+    left: 32.8vw;
+    width: 13.7vw;
+  }
+
+  .magic_flute_path_3 {
+    top: 95.01vw;
+    left: 30.02vw;
+    width: 16.5vw;
+  }
+
+  .figaro_circle {
+    top: 92.3vw;
+    left: 52.5vw;
+  }
+
+  .figaro_circle_2 {
+    top: 92.3vw;
+    left: 52.5vw;
+  }
+
+  .figaro_circle_3 {
+    top: 92.4vw;
+    left: 52.6vw;
+  }
+
+  .figaro_circle_4 {
+    top: 92.4vw;
+    left: 52.2vw;
+  }
+
+  .figaro_path {
+    top: 101.3vw;
+    left: 53.1vw;
+    width: 16.9vw;
+  }
+
+  .figaro_path_2 {
+    top: 101.3vw;
+    left: 53.1vw;
+    width: 16.9vw;
+  }
+
+  .figaro_path_3 {
+    top: 93vw;
+    left: 56vw;
+    width: 5.6vw;
+  }
+
+  .figaro_path_4 {
+    top: 95.6vw;
+    left: 61.5vw;
+    width: 6.2vw;
+  }
+
 }
 
 @media (min-width: 1024px) {
@@ -1050,6 +1266,123 @@ b {
 
   b {
     display: inline-block;
+  }
+
+  /* Для анимации */
+
+  .onegin_circle,
+  .onegin_circle_2 {
+      top: 80.3vw;
+      left: 0.5vw;
+  }
+
+  .onegin_path,
+  .onegin_path_2 {
+    top: 81.3vw;
+    left: 1.47vw;
+    width: 14.2vw;
+  }
+
+
+  .don_juan_circle,
+  .don_juan_circle_2,
+  .don_juan_circle_3 {
+    top: 80.2vw;
+    left: 83.4vw;
+    width: 2vw;
+    height: 2vw;
+  }
+
+  .don_juan_path,
+  .don_juan_path_2,
+  .don_juan_path_3 {
+    top: 81.3vw;
+    left: 84.34vw;
+    width: 14.2vw;
+  }
+
+  .magic_flute_circle,
+  .magic_flute_circle_2,
+  .magic_flute_circle_3,
+  .figaro_circle,
+  .figaro_circle_2,
+  .figaro_circle_3,
+  .figaro_circle_4 {
+    width: 1vw;
+    height: 1vw;
+  }
+
+  .magic_flute_circle {
+    top: 60.1vw;
+    left: 1.05vw;
+  }
+
+  .magic_flute_circle_2 {
+    top: 60.2vw;
+    left: 1vw;
+  }
+
+  .magic_flute_circle_3 {
+    top: 60.2vw;
+    left: 1.1vw;
+  }
+
+  .magic_flute_path {
+    position: absolute;
+    top: 60.75vw;
+    left: 3.9vw;
+    width: 12.7vw;
+  }
+
+  .magic_flute_path_2 {
+    top: 61.6vw;
+    left: 3.85vw;
+    width: 11.5vw;
+  }
+
+  .magic_flute_path_3 {
+    top: 62.4vw;
+    left: 1.55vw;
+    width: 13.8vw;
+  }
+
+  .figaro_circle {
+    top: 60.15vw;
+    left: 83.8vw;
+  }
+
+  .figaro_circle_2 {
+    top: 60.15vw;
+    left: 83.8vw;
+  }
+
+  .figaro_circle_3 {
+    top: 60.15vw;
+    left: 83.8vw;
+  }
+
+  .figaro_circle_4 {
+    top: 60.15vw;
+    left: 83.4vw;
+  }
+
+  .figaro_path,
+  .figaro_path_2 {
+    top: 67.65vw;
+    left: 84.4vw;
+    width: 14vw;
+  }
+
+  .figaro_path_3 {
+    top: 60.7vw;
+    left: 86.82vw;
+    width: 4.67vw;
+  }
+
+  .figaro_path_4 {
+    top: 62.9vw;
+    left: 91.4vw;
+    width: 5.2vw;
   }
 
 }
