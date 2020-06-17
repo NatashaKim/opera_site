@@ -45,21 +45,6 @@ let red = anime({
 
 
 
-//  function tweenPosition(angle, rayLength, zoom){
-//    var c = Math.cos(angle);
-//    var s = Math.sin(angle);
-//    return       { scale: zoom, x: rayLength * c * zoom, y:rayLength * s * zoom };
-//  }
-//
-// function galaxyTween(galaxyName, angleDeg, zoom){
-//   return TweenMax.fromTo(galaxyName, 1,
-//     tweenPosition(angleDeg / 180 * 3.1415,400*zoom,0.1),
-//     tweenPosition(angleDeg / 180 * 3.1415,400*zoom,1)
-//   );
-// }
-
-
-
 // Для того, чтобы ближние "кнопки" не закрывали дальние
 
 function setChildsDisplay(elementId, display){
