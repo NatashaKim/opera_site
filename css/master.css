@@ -3309,7 +3309,7 @@ p {
 .wrapper_vr {
   width: 100vw;
   height: 100vh;
-  position: relative;
+  position: absolute;
   top: 0;
   overflow-x: hidden;
   overflow-y: hidden;
@@ -3320,20 +3320,19 @@ p {
 }
 
 .vr footer {
-  bottom: 0;
+  bottom:0;
   position: absolute;
   background-color: black;
 }
 
 #container {
   height: 50vw;
-  padding-top: 49vw;
+  z-index: 0;
 }
 
-
-#canvas {
-  width: 100vw;
-  height: 30vw;
+canvas {
+  float: right;
+  right: 0;
 }
 
 .vr h1 {
@@ -3342,6 +3341,7 @@ p {
   left: 7vw;
   width: 100%;
   display: block;
+  z-index: 1;
 }
 
 .vr h5 {
@@ -3349,6 +3349,7 @@ p {
   top: 59.2vw;
   left: 7vw;
   width: 70vw;
+  z-index: 1;
 }
 
 @media (min-width: 768px) {
@@ -3356,7 +3357,7 @@ p {
 
   #container {
     height: 50vw;
-    padding-top: 29vw;
+    /* padding-top: 29vw; */
   }
 
   .vr  h1 {
@@ -3374,7 +3375,8 @@ p {
 
   #container {
     height: 50vw;
-    padding-top: 15vw;
+    /* padding-top: 15vw; */
+    margin-right: -16vw;
   }
 
   .vr h1 {

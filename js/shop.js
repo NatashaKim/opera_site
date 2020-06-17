@@ -16,7 +16,6 @@ let animSix  = anime({
 
 
 var modal = document.querySelector(".modal");
-    var trigger = document.querySelector(".tr");
     var closeButton = document.querySelector(".close-button");
 
     function toggleModal() {
@@ -29,6 +28,11 @@ var modal = document.querySelector(".modal");
         }
     }
 
-    trigger.addEventListener("click", toggleModal);
+
+    var trigger = document.querySelectorAll(".tr");
+    for (i=0; i < trigger.length;i++)
+        trigger[i].addEventListener("click", toggleModal);
+
+
     closeButton.addEventListener("click", toggleModal);
     window.addEventListener("click", windowOnClick);

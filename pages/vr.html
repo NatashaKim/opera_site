@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
     <title>opera</title>
     <link rel="stylesheet" type="text/css" href="../css/master.css" />
   </head>
@@ -107,19 +107,20 @@
     <script>
       let scene, camera, renderer;
       function init() {
-        //renderer = new THREE.WebGLRenderer();
-        //renderer.setSize( window.innerWidth, window.innerHeight );
-        //document.body.appendChild( renderer.domElement );
 
         renderer = new THREE.WebGLRenderer({antialias:true});
-        renderer.setSize(window.innerWidth,window.innerHeight);
+        renderer.setSize(window.innerWidth,window.innerHeight*0.7);
         document.querySelector('#container').appendChild(renderer.domElement);
+        renderer.domElement.style.position="absolute";
+        renderer.domElement.style.top="30vh";
+
+
 
 
 
         scene = new THREE.Scene();
         scene.background = new THREE.Color(0x000000);
-        camera = new THREE.PerspectiveCamera(0.9,window.innerWidth/window.innerHeight,1,5000);
+        camera = new THREE.PerspectiveCamera(0.9,window.innerWidth/(window.innerHeight*0.7),1,5000);
         camera.rotation.y = 45/180*Math.PI;
         camera.position.x = 800;
         camera.position.y = 600;
