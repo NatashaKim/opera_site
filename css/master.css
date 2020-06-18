@@ -6075,7 +6075,7 @@ em {
 @media (min-width: 768px) {
 
   .calendar {
-    top: 353vw;
+    top: 360vw;
     padding: 0 2.5vw;
   }
 
@@ -6138,7 +6138,7 @@ em {
 
 @media (min-width: 1024px) {
   .calendar {
-    top: 214.5vw;
+    top: 217.5vw;
     padding: 0 4.2vw;
   }
 
@@ -6149,7 +6149,6 @@ em {
   .afisha a:hover .day {
     width: 53vw;
     height: 15vw;
-    /* border: 0.4vw solid var(--accent-color); */
     border-radius: 4vw;
     top: -14vw;
   }
@@ -6187,7 +6186,7 @@ em {
   }
 
   .calendar {
-    top: 198vw;
+    top: 201vw;
     padding: 0 0.6vw;
   }
 
@@ -6275,7 +6274,7 @@ em {
 
 @media (min-width: 1440px) {
   .calendar {
-    top: 193vw;
+    top: 195vw;
     padding: 0 2.8vw;
   }
 }
