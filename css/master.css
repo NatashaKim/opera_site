@@ -161,7 +161,7 @@ header {
 #menu {
   position: absolute;
   width: 100vw;
-  height: 100vh;
+  height: 101vh;
   margin: -10vw 0 0 -88vw;
   background: black;
   list-style-type: none;
