@@ -3422,8 +3422,6 @@ canvas {
 .text_cast {
   width: 100vw;
   height: 134vw;
-  /* background-color: red;
-  opacity: 30%; */
 }
 
 .text_cast h1 {
@@ -3622,7 +3620,7 @@ canvas {
   }
 
   #trigger1 {
-    top: 141.1vw;
+    top: 164.1vw;
   }
 
   .wrapper_2 {
