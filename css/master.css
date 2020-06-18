@@ -1127,7 +1127,6 @@ b {
   .left_pic {
     width: 17.6vw;
     border-right: 0.4vw solid;
-    border-right: 0;
     grid-area: auto;
   }
 
