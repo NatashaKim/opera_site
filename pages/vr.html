@@ -88,16 +88,16 @@
         <h1>VR тур</h1>
         <h5>3d тур, созданный космической оперой, позволяет ознакомиться с ее пространством, не выходя из дома. Для просмотра VR контента используйте очки Google Cardboard, которые можно получить бесплатно в кассах космической оперы.</h5>
 
-      <div id="container"></div>
+        <div id="container"></div>
 
-      <footer>
-        <span>© 2019 — 2020, Космоопера</span>
-        <div class="logo">
-          <img src="../img/facebook.svg" alt="facebook">
-          <img src="../img/twitter.svg" alt="twitter">
-          <img src="../img/instagram.svg" alt="instagram">
-        </div>
-      </footer>
+        <footer>
+          <span>© 2019 — 2020, Космоопера</span>
+          <div class="logo">
+            <img src="../img/facebook.svg" alt="facebook">
+            <img src="../img/twitter.svg" alt="twitter">
+            <img src="../img/instagram.svg" alt="instagram">
+          </div>
+        </footer>
 
       </div>
     </div>
@@ -113,10 +113,6 @@
         document.querySelector('#container').appendChild(renderer.domElement);
         renderer.domElement.style.position="absolute";
         renderer.domElement.style.top="30vh";
-
-
-
-
 
         scene = new THREE.Scene();
         scene.background = new THREE.Color(0x000000);
@@ -163,19 +159,14 @@
         });
       }
 
-
       function onMouseWheel() {
 
-  if ( ( spherical.radius === scope.minDistance && event.deltaY < 0 ) ||
+        if ( ( spherical.radius === scope.minDistance && event.deltaY < 0 ) ||
         ( spherical.radius === scope.maxDistance && event.deltaY > 0 ) ) {
 
-    return;
-
-  }
-}
-
-
-
+        return;
+        }
+       }
 
       function animate() {
         controls.update();

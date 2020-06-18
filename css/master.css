@@ -450,6 +450,7 @@ h2 {
 .atom_1 img,
 .atom_3 img {
   width: 20vw;
+  cursor: pointer;
 }
 
 .atom_2 {
@@ -2216,6 +2217,7 @@ p {
   background-color: var(--main-color);
   border: none;
   z-index: 2;
+  cursor: pointer;
 }
 
 #notebook img {
@@ -2788,10 +2790,12 @@ p {
   width: calc(var(--nav-height) / 25);
   height: calc(var(--nav-height) / 25);
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .dot:hover {
   opacity: 50%;
+  cursor: pointer;
 }
 
 
