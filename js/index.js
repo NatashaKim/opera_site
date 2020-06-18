@@ -166,3 +166,43 @@ atomClick.onclick = animAtom.play
   loop: true,
   direction: 'alternate'
 })
+
+let left_circle = anime({
+targets: '.left_circle',
+duration: 2000,
+scale: 1.5,
+easing: 'linear',
+autoplay: true,
+loop: true,
+direction: 'alternate'
+})
+
+let left_circle_2 = anime({
+targets: '.left_circle_2',
+duration: 1500,
+scale: 1.4,
+easing: 'linear',
+autoplay: true,
+loop: true,
+direction: 'alternate'
+})
+
+let right_circle = anime({
+targets: '.right_circle',
+duration: 2000,
+scale: 1.2,
+easing: 'linear',
+autoplay: true,
+loop: true,
+direction: 'alternate'
+})
+
+let right_circle_2 = anime({
+targets: '.right_circle_2',
+duration: 1500,
+scale: 1.1,
+easing: 'linear',
+autoplay: true,
+loop: true,
+direction: 'alternate'
+})
